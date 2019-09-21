@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>نظام الولاء والمكافات</title>
+      <!-- Favicons -->
+      <!-- <link href="img/logo.png" rel="icon">-->
+      <link href="js/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- font awsome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <!-- Main Stylesheet File -->
+      <link href="css/style.css" rel="stylesheet">
+      <style>
+         /*special for this page*/
+         html , body{
+         height: auto;
+         }
+          
+          
+      </style>
+   </head>
+   <body style="height: auto">
+      <div id="back"></div>
+      <div id="front"></div>
+      <section class="special all-sections">
+         <div class="sec-title text-center wow flipInX" style="visibility: visible; animation-name: flipInX;">
+            <!--<h2 class="h2-after">نظام الولاء والمكافات</h2>-->
+            <h3 id="logo" class="logoooo">نظام الولاء والمكافات</h3>
+         </div>
+          <div class="words">
+             <p>كوبك</p>
+             <p>6</p>
+             <p>علينا</p>
+             <p>خود كودك</p>
+         </div>
+         <div class="container flex-content content100">
+            <div class="row">
+               <div class="col-lg-3 col-12">
+                  <ul class="wow zoomInRight ul-links">
+                     <li class="active scale">
+                        <div class="prod-overlay"></div>
+                        <a href="log-in.html"><img src="img/new-user.png"></a>
+                     </li>
+                     <li>
+                        <div class="prod-overlay"></div>
+                        <a href="code.html"> <img src="img/writing.png">
+                        </a>
+                     </li>
+                     <li>
+                        <div class="prod-overlay"></div>
+                        <a href="comment.html"> <img src="img/comments.png">
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-lg-9 col-12">
+                  <div class="content-form">
+                     <!-- <h3 id="logo">تسجيل دخول</h3>-->
+                     <h2 class="h2-after login" >تسجيل جديد</h2>
+                     <form method="post" action="welcome.html" class="form-login">
+                        <div class="form-group">
+                           <label for="usr">الاسم: </label>
+                           <input type="text" class="form-control" id="usr" required>
+                        </div>
+                        <div class="form-group">
+                           <label for="pwd">رقم الجوال: </label>
+                           <input type="number" class="form-control" id="pwd" required>
+                        </div>
+                        <div class="form-group flex-group">
+                           <p class="type">النوع :</p>
+                           <p>
+                              <input type="radio" id="test1" name="radio-group" checked >
+                              <label for="test1" class="label-inlie"></label><label for="test1" class="curs-pointer">ذكر</label>
+                           </p>
+                           <p class="marg-right">
+                              <input type="radio" id="test2" name="radio-group">
+                              <label for="test2" class="label-inlie"></label><label for="test2" class="curs-pointer"> انثي</label> 
+                           </p>
+                        </div>
+                        <div class="form-group align-center">
+                           <button type="submit" class="submit">تسجيل</button>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="content-form margin-top-20">
+                     <!-- <h3 id="logo">تسجيل دخول</h3>-->
+                     <h2 class="h2-after login" >تسجيل زيارة</h2>
+                     <form method="post" action="welcome.html" class="form-login">
+                        <div class="form-group">
+                           <label for="usr">الكود: </label>
+                           <input type="password" class="form-control" id="pwd" required>
+                        </div>
+                        <div class="form-group align-center">
+                           <button type="submit" class="submit">تسجيل</button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- loader  -->
+      <div class="loader">
+         <div class="container">
+          <div class="row row1 beans">
+          </div>
+          <div class="row row1 cup">
+          </div>
+         
+        </div>
+      </div>
+      <!-- jquery -->
+      <script src="js/jquery-1.11.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script>
+         new WOW().init();
+      </script>
+      <!-- Template Main Javascript File -->
+      <script src="js/main.js"></script>
+   </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>نظام الولاء والمكافات</title>
+      <!-- Favicons -->
+      <!-- <link href="img/logo.png" rel="icon">-->
+      <link href="js/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- font awsome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <!-- Main Stylesheet File -->
+      <link href="css/style.css" rel="stylesheet">
+       <style>
+          /*special for this page*/
+          html , body{
+              height: auto;
+              
+          }
+      </style>
+   </head>
+   <body >
+      <div id="back"></div>
+      <div id="front"></div>
+      <section class="special all-sections">
+         <div class="sec-title text-center wow flipInX" style="visibility: visible; animation-name: flipInX;">
+            <!--<h2 class="h2-after">نظام الولاء والمكافات</h2>-->
+            <h3 id="logo" class="logoooo">نظام الولاء والمكافات</h3>
+         </div>
+          <div class="words">
+             <p>كوبك</p>
+             <p>6</p>
+             <p>علينا</p>
+             <p>خود كودك</p>
+         </div>
+         <div class="container flex-content content100">
+            <div class="row">
+               <div class=" col-12">
+                  <div class="content-form">
+                     <!-- <h3 id="logo">تسجيل دخول</h3>-->
+                     <h2 class="h2-after login" >استبيان</h2>
+                     <form method="post" action="welcome.html" class="form-login">
+                        <div class="form-group form-group1">
+                           <label >هذا النص هو مثال لنص يمكن ان يستبدل في هذة المساحة </label>
+                           <div class="">
+                              <p>
+                               <input type="radio" id="test1" name="radio-group" checked>
+                               <label for="test1" class="label-inlie"></label><label for="test1" class="curs-pointer">اجابة 1</label>
+                              </p>
+                              <p class="">
+                                 <input type="radio" id="test2" name="radio-group">
+                                 <label for="test2" class="label-inlie"></label><label for="test2" class="curs-pointer">اجابة 2</label> 
+                              </p>
+                           </div>
+                        </div>
+                        <div class="form-group form-group1">
+                           <label >هذا النص هو مثال لنص يمكن ان يستبدل في هذة المساحة </label>
+                           <textarea class="form-control"></textarea>
+                        </div>
+                        <div class="form-group form-group1">
+                           <div class="rate-us ">
+                              
+                             <label class="label-emoje" >هذا النص هو مثال لنص يمكن ان يستبدل في هذة المساحة</label>
+                              <div class="flex-imoje">
+                                  <input type="radio" name="question" value="Happy" class="green" id="question3b"><label for="question3b" class="green-label"></label>
+                                  <input type="radio" name="question" value="Unhappy" class="red" id="question1b"><label for="question1b" class="red-label"></label>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="form-group align-center">
+                           <button type="submit" class="submit">ارسال</button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      
+      <!-- loader  -->
+      <div class="loader">
+         <div class="container">
+          <div class="row row1 beans">
+          </div>
+          <div class="row row1 cup">
+          </div>
+        </div>
+      </div>
+      <!-- jquery -->
+      <script src="js/jquery-1.11.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script>
+         new WOW().init();
+      </script>
+      <!-- Template Main Javascript File -->
+      <script src="js/main.js"></script>
+   </body>
+</html>
